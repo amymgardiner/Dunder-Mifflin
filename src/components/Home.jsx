@@ -5,6 +5,8 @@ const Home = () => {
 
 		<main>
 			<div className="home--hero">
+				<p>At Dunder Mifflin, we understand the importance of a well-stocked office.</p>
+				<p>We have everything you need to keep your workspace running smoothly.</p>
 			</div>
 
 			<div className="home--feature">
