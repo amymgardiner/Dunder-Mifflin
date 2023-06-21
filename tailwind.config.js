@@ -5,6 +5,13 @@ module.exports = {
     ],
     theme: {
       extend: {},
+      colors: {
+        'white': '#ffffff',
+        'dark-blue': '#194175',
+        'navy-blue': '#003085',
+        'sky-blue': '#ABCBFF',
+        'light-blue': '#b8d0e5',
+      },
       screens: {
         'sm': {'max': '640px'},
         // => @media (max-width: 640px) { ... }
@@ -21,6 +28,11 @@ module.exports = {
         '2xl': {'max': '1536px'},
         // => @media (max-width: 1536px) { ... }
       },
+      fontFamily: {
+        'sans': ['tahoma', 'sans-serif'],
+        'serif': ['impact', 'serif'],
+        'default' : ['helvetica'],
+      }
     },
     plugins: [],
   }
