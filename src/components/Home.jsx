@@ -6,14 +6,15 @@ import Boise from '../assets/img/125115_o01_boise_splox_speed_loading_reamless_p
 import PrintingSVG from '../assets/img/undraw_photocopy_re_gln4.svg'
 import PaintingSVG from '../assets/img/undraw_specs_re_546x.svg'
 import ScrollAnimation from 'react-animate-on-scroll';
+import LocalAd from '../assets/img/Local Ad  - The Office US - Trim.mp4'
 
 const Home = () => {
 	return (
 
 		<main>
 			<div className="relative font-sans bg-center bg-cover home--hero wrapper">
-				<div className="pt-20 pb-32 px-28 md:py-16 md:px-8 home--hero-text">
-					<h2 className="text-5xl md:text-4xl font-bold max-w-[35%] leading-snug">At Dunder Mifflin Paper Company, we understand the importance of a well-stocked office.</h2>
+				<div className="pt-24 pb-36 px-28 md:py-16 md:px-8 home--hero-text">
+					<h2 className="text-5xl md:text-4xl font-bold max-w-[40%] leading-snug">At Dunder Mifflin Paper Company, we understand the importance of a well-stocked office.</h2>
 					<p className="mt-16 text-2xl leading-normal text-white md:mb-8 md:mt-8 md:text-xl">We have everything you need to keep your workspace running smoothly.</p>
 				</div>
 				<div className="absolute bottom-[-1.5rem] left-1/2 home--hero-arrow"></div>
@@ -53,7 +54,10 @@ const Home = () => {
 				</div>
 			</div>
 
-			<div className="home--products">
+			<div className="home--video">
+			<video width="750" height="500" controls >
+				<source src={LocalAd} type="video/mp4"/>
+			</video>
 			</div>
 
 			<div className="home--contact">
