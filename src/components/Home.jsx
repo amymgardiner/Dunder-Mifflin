@@ -28,6 +28,7 @@ const Home = () => {
 				<div className="px-32">
 					<h2 className="font-sans text-4xl font-semibold md:text-3xl">Delivering Quality Paper Solutions Since 1949</h2>
 					<p className="mt-8 text-xl leading-loose md:text-lg font-default">At Dunder Mifflin Paper Company, we pride ourselves on being a leading provider of paper products and solutions for businesses in Scranton, PA, and beyond. With over seven decades of experience, we have built a reputation for delivering exceptional service, unmatched reliability, and the highest quality paper products to meet the diverse needs of our customers.</p>
+					<p className="mt-4 text-xl leading-loose md:text-lg font-default">At the core of our business philosophy lies a deep commitment to excellence. We understand that every business has unique requirements, and we strive to provide tailored solutions that meet and exceed our customers' expectations.</p>
 				</div>
 			</div>
 
@@ -124,7 +125,7 @@ const Home = () => {
 				<h2 className="font-sans text-4xl font-semibold md:text-3xl">Exceptional Customer Service</h2>
 					<div className="grid grid-cols-2 gap-16 px-10 mt-12 md:grid-cols-1 md:px-0">
 						<div className="flex items-center">
-							<ScrollAnimation animateIn="fadeInLeftt" animateOnce={true}>
+							<ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
 								<div>
 									<img src={ContactSVG} alt="Illustration of customer service" className="max-h-96 aspect-[5/3]"></img>
 								</div>
