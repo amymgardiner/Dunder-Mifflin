@@ -49,3 +49,14 @@ body {
 	}
 
 }
+
+.home--hero-arrow {
+	content: url("./assets/img/down-arrow-download-svgrepo-com.svg");
+	height: 5rem;
+	width: 5rem;
+
+	@media screen and (max-width: 48rem) {
+		height: 4rem;
+		width: 4rem;
+	}
+}
