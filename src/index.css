@@ -25,6 +25,10 @@ body {
 	font-family: 'helvetica';
 }
 
+.button--primary:hover {
+	background-color: #194175;
+}
+
 .home--hero {
 	background-image:
 		linear-gradient(to bottom, rgba(171, 203, 2280, 0.4), rgba(0, 48, 133, 0.8)),
@@ -69,4 +73,10 @@ body {
 		width: 100%;
 		height: 100%;
 	}
+}
+
+.home--hero-ending {
+	background-image:
+	linear-gradient(to bottom, rgba(171, 203, 2280, 0.4), rgba(0, 48, 133, 0.8)),
+	url("./assets/img/richard-horvath-_nWaeTF6qo0-unsplash.jpg");
 }

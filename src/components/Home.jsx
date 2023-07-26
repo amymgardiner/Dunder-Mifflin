@@ -3,6 +3,7 @@ import PrintingSVG from '../assets/img/undraw_photocopy_re_gln4.svg'
 import PresentationSVG from '../assets/img/undraw_progress_data_re_rv4p.svg'
 import DeliverySVG from '../assets/img/undraw_delivery_address_re_cjca.svg'
 import ContactSVG from '../assets/img/undraw_contact_us_re_4qqt.svg'
+import SustainabilitySVG from '../assets/img/undraw_environment_iaus.svg'
 import ScrollAnimation from 'react-animate-on-scroll';
 import Hammermill from '../assets/img/Essendant Inc_HAM105007xx02xxf9764d.avif';
 import HP from '../assets/img/3798345_o03_092122.webp';
@@ -15,6 +16,7 @@ const Home = () => {
 	return (
 
 		<main>
+
 			{/* hero */}
 			<div className="relative font-sans bg-center bg-cover home--hero wrapper">
 				<div className="pt-24 pb-36 px-28 md:py-16 md:px-8 home--hero-text">
@@ -24,6 +26,7 @@ const Home = () => {
 				<div className="absolute bottom-[-1.5rem] left-1/2 home--hero-arrow"></div>
 			</div>
 
+			{/* introduction */}
 			<div className="py-20 text-center home--about wrapper">
 				<div className="px-32">
 					<h2 className="font-sans text-4xl font-semibold md:text-3xl">Delivering Quality Paper Solutions Since 1949</h2>
@@ -141,6 +144,39 @@ const Home = () => {
 						</div>
 					</div>
 			</div>
+
+			{/* 50/50 sustainbility */}
+			<div className="flex flex-col items-center justify-center py-20 home--supplies wrapper">
+				<h2 className="font-sans text-4xl font-semibold md:text-3xl">Sustainable Practices for a Better Future</h2>
+					<div className="grid grid-cols-2 gap-16 px-10 mt-12 md:grid-cols-1 md:px-0">
+						<div className="max-w-[95%] md:max-w-[100%] md:px-8 sm:!px-0 bg-light-blue flex items-center rounded-2xl">
+							<ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
+								<div className="p-8 sm:p-6">
+									<p className="text-xl leading-loose md:text-lg font-default">As a responsible corporate citizen, Dunder Mifflin Paper Company understands the importance of sustainable practices in preserving our environment. We are committed to reducing our ecological footprint through responsible sourcing, recycling initiatives, and energy-efficient operations. By choosing Dunder Mifflin as your paper supplier, you can contribute to a greener future while enjoying the finest paper products available.</p>
+									<button className="mt-10 text-lg button--primary">Learn More</button>
+								</div>
+							</ScrollAnimation>
+						</div>
+						<div className="flex items-center">
+							<ScrollAnimation animateIn="fadeInRight" animateOnce={true}>
+								<div>
+									<img src={SustainabilitySVG} alt="Illustration of the environment" className="max-h-96 aspect-[5/3]"></img>
+								</div>
+							</ScrollAnimation>
+						</div>
+					</div>
+			</div>
+
+			{/* ending */}
+			<div className="font-sans bg-center bg-cover wrapper home--hero-ending">
+				<div className="pt-24 pb-36 px-28">
+					<h2 className="text-5xl font-bold leading-snug text-white md:text-4xl">Join the Dunder Mifflin Family</h2>
+					<p className="text-2xl leading-normal text-white md:text-xl">We invite you to join the ever-growing family of businesses that trust Dunder Mifflin Paper Company for their paper needs. Whether you are a small local enterprise or a large corporation, we have the expertise, resources, and dedication to serve you with excellence.</p>
+					<p className="text-2xl leading-normal text-white md:text-xl">Explore our website to discover our wide range of paper products, learn more about our sustainability initiatives, and get in touch with our friendly team. At Dunder Mifflin, we are here to make your paper purchasing experience efficient, reliable, and hassle-free.</p>
+					<p className="text-2xl leading-normal text-white md:text-xl">Choose Dunder Mifflin Paper Company, and let us be your partner in success.</p>
+			</div>
+			</div>
+
 		</main>
 	)
 }
