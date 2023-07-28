@@ -1,19 +1,25 @@
 import React from 'react'
+// Components
 import Navbar from './Navbar'
+
+// Tools
+import ScrollAnimation from 'react-animate-on-scroll';
+
+// images and video
 import PrintingSVG from '../assets/img/undraw_photocopy_re_gln4.svg'
 import PresentationSVG from '../assets/img/undraw_progress_data_re_rv4p.svg'
 import DeliverySVG from '../assets/img/undraw_delivery_address_re_cjca.svg'
 import ContactSVG from '../assets/img/undraw_contact_us_re_4qqt.svg'
 import SustainabilitySVG from '../assets/img/undraw_environment_iaus.svg'
-import ScrollAnimation from 'react-animate-on-scroll';
 import Hammermill from '../assets/img/Essendant Inc_HAM105007xx02xxf9764d.avif';
 import HP from '../assets/img/3798345_o03_092122.webp';
 import PrinterWorks from '../assets/img/Printworks-Multipurpose-Paper.webp';
 import Boise from '../assets/img/125115_o01_boise_splox_speed_loading_reamless_paper.webp';
-import LocalAd from '../assets/img/Local Ad  - The Office US - Trim.mp4'
 import VideoPoster from '../assets/img/brandi-redd-aJTiW00qqtI-unsplash.jpg'
+import LocalAd from '../assets/img/Local Ad  - The Office US - Trim.mp4'
 
 const Home = () => {
+
 	return (
 
 		<main>
