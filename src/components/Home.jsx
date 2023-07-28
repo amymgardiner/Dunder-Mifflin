@@ -28,7 +28,7 @@ const Home = () => {
 		
 			{/* hero */}
 			<div className="relative font-sans bg-center bg-cover home--hero wrapper">
-				<div className="pt-24 pb-36 px-28 md:py-16 md:px-0 home--hero-text">
+				<div className="pt-20 pb-28 px-28 md:py-16 md:px-0 home--hero-text">
 					<h2 className="text-5xl md:text-4xl font-bold max-w-[40%] leading-snug">At Dunder Mifflin Paper Company, we understand the importance of a well-stocked office.</h2>
 					<p className="mt-16 text-2xl leading-normal text-white md:mb-8 md:mt-8 md:text-xl">We have everything you need to keep your workspace running smoothly.</p>
 				</div>
@@ -178,7 +178,7 @@ const Home = () => {
 
 			{/* ending */}
 			<div className="font-sans bg-center bg-cover wrapper home--hero-ending">
-				<div className="pt-24 pb-36 px-28 md:px-0 md:py-8">
+				<div className="pt-20 pb-28 px-28 md:px-0 md:py-8">
 					<h2 className="mb-16 text-5xl font-bold leading-snug text-white md:mb-8 md:text-4xl">Join the Dunder Mifflin Family</h2>
 					<p className="mb-4 text-2xl leading-normal text-white md:text-xl">We invite you to join the ever-growing family of businesses that trust Dunder Mifflin Paper Company for their paper needs. Whether you are a small local enterprise or a large corporation, we have the expertise, resources, and dedication to serve you with excellence.</p>
 					<p className="mb-4 text-2xl leading-normal text-white md:text-xl">Explore our website to discover our wide range of paper products, learn more about our sustainability initiatives, and get in touch with our friendly team. At Dunder Mifflin, we are here to make your paper purchasing experience efficient, reliable, and hassle-free.</p>

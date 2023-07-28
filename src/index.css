@@ -80,3 +80,20 @@ body {
 	linear-gradient(to bottom, rgba(171, 203, 2280, 0.4), rgba(0, 48, 133, 0.8)),
 	url("./assets/img/richard-horvath-_nWaeTF6qo0-unsplash.jpg");
 }
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
