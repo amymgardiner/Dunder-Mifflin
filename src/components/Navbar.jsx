@@ -4,7 +4,7 @@ import Logo from '../assets/img/Dunder_Mifflin,_Inc.svg'
 
 const Navbar = () => {
 	return (
-		<nav className="flex items-center gap-16 main--navbar bg-dark-blue">
+		<nav className="flex items-center gap-16 main--navbar bg-navy-blue">
 			<div>
 				<img src={Logo} alt="Hammermill Copy Plus Copy Paper" className="w-36"></img>
 			</div>

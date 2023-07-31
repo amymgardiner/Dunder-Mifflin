@@ -37,11 +37,11 @@ body {
 }
 
 .button--primary:hover {
-	background-color: #194175;
+	background-color: #0045b0
 }
 
 .button--secondary:hover {
-	background-color: #b8d0e5;
+	background-color: #dae8ff
 }
 
 .home--hero {
