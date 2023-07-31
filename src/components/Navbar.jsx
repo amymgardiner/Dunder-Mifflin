@@ -1,9 +1,10 @@
+import React from 'react'
 import { BiDownArrow } from "react-icons/bi";
 import Logo from '../assets/img/Dunder_Mifflin,_Inc.svg'
 
 const Navbar = () => {
 	return (
-		<div className="flex items-center gap-16 main--navbar bg-dark-blue">
+		<nav className="flex items-center gap-16 main--navbar bg-dark-blue">
 			<div>
 				<img src={Logo} alt="Hammermill Copy Plus Copy Paper" className="w-36"></img>
 			</div>
@@ -24,7 +25,7 @@ const Navbar = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</nav>
 	)
 }
 

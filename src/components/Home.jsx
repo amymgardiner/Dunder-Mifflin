@@ -1,6 +1,7 @@
 import React from 'react'
 // Components
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 // Tools
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -27,25 +28,25 @@ const Home = () => {
 		<Navbar/>
 		
 			{/* hero */}
-			<div className="relative font-sans bg-center bg-cover home--hero wrapper">
+			<header className="relative font-sans bg-center bg-cover home--hero wrapper">
 				<div className="pt-20 pb-28 px-28 md:py-16 md:px-0 home--hero-text">
 					<h2 className="text-5xl md:text-4xl font-bold max-w-[40%] leading-snug">At Dunder Mifflin Paper Company, we understand the importance of a well-stocked office.</h2>
 					<p className="mt-16 text-2xl leading-normal text-white md:mb-8 md:mt-8 md:text-xl">We have everything you need to keep your workspace running smoothly.</p>
 				</div>
 				<div className="absolute bottom-[-1.5rem] left-1/2 home--hero-arrow"></div>
-			</div>
+			</header>
 
 			{/* introduction */}
-			<div className="py-20 text-center home--about wrapper">
+			<section className="py-20 text-center home--about wrapper">
 				<div className="px-32 md:px-0">
 					<h2 className="font-sans text-4xl font-semibold md:text-3xl">Delivering Quality Paper Solutions Since 1949</h2>
 					<p className="mt-8 text-xl leading-loose md:text-lg font-default">At Dunder Mifflin Paper Company, we pride ourselves on being a leading provider of paper products and solutions for businesses in Scranton, PA, and beyond. With over seven decades of experience, we have built a reputation for delivering exceptional service, unmatched reliability, and the highest quality paper products to meet the diverse needs of our customers.</p>
 					<p className="mt-4 text-xl leading-loose md:text-lg font-default">At the core of our business philosophy lies a deep commitment to excellence. We understand that every business has unique requirements, and we strive to provide tailored solutions that meet and exceed our customers' expectations.</p>
 				</div>
-			</div>
+			</section>
 
 			{/* featured products */}
-			<div className="flex flex-col items-center justify-center py-20 text-center home--feature wrapper bg-sky-blue">
+			<section className="flex flex-col items-center justify-center py-20 text-center home--feature wrapper bg-sky-blue">
 				<div>
 					<h2 className="font-sans text-4xl font-semibold md:text-3xl">Featured Products</h2>
 				</div>
@@ -57,17 +58,17 @@ const Home = () => {
 						<img src={PrinterWorks} alt="Printworks Multipurpose Paper" class="aspect-square max-h-96 rounded-2xl"></img>
 					</div>
 				</ScrollAnimation>
-			</div>
+			</section>
 
 			{/* video */}
-			<div className="flex justify-center py-16 home--video bg-dark-blue">
+			<section className="flex justify-center py-16 home--video bg-dark-blue">
 				<video poster={VideoPoster} controls >
 					<source src={LocalAd} type="video/mp4"/>
 				</video>
-			</div>
+			</section>
 
 			{/* 50/50 paper products */}
-			<div className="flex flex-col items-center justify-center py-20 wrapper home--paper">
+			<section className="flex flex-col items-center justify-center py-20 wrapper home--paper">
 				<h2 className="font-sans text-4xl font-semibold md:text-3xl">Paper Perfection for Every Occasion</h2>
 				<div className="grid grid-cols-2 gap-16 px-10 mt-12 md:grid-cols-1 md:px-0">
 					<div className="max-w-[95%] md:max-w-[100%] md:px-8 sm:!px-0 bg-light-blue flex items-center rounded-2xl">
@@ -86,10 +87,10 @@ const Home = () => {
 						</ScrollAnimation>
 					</div>
 				</div>
-			</div>
+			</section>
 
 			{/* 50/50 office supplies */}
-			<div className="flex flex-col items-center justify-center py-20 home--supplies wrapper">
+			<section className="flex flex-col items-center justify-center py-20 home--supplies wrapper">
 				<h2 className="font-sans text-4xl font-semibold md:text-3xl">Office Supplies Galore</h2>
 					<div className="grid grid-cols-2 gap-16 px-10 mt-12 md:grid-cols-1 md:px-0">
 						<div className="flex items-center">
@@ -108,10 +109,10 @@ const Home = () => {
 							</ScrollAnimation>
 						</div>
 					</div>
-			</div>
+			</section>
 			
 			{/* 50/50 shipping */}
-			<div className="flex flex-col items-center justify-center py-20 home--supplies wrapper">
+			<section className="flex flex-col items-center justify-center py-20 home--supplies wrapper">
 				<h2 className="font-sans text-4xl font-semibold md:text-3xl">Fast and Reliable Shipping</h2>
 					<div className="grid grid-cols-2 gap-16 px-10 mt-12 md:grid-cols-1 md:px-0">
 						<div className="max-w-[95%] md:max-w-[100%] md:px-8 sm:!px-0 bg-light-blue flex items-center rounded-2xl">
@@ -130,10 +131,10 @@ const Home = () => {
 							</ScrollAnimation>
 						</div>
 					</div>
-			</div>
+			</section>
 			
 			{/* 50/50 customer service */}
-			<div className="flex flex-col items-center justify-center py-20 home--supplies wrapper">
+			<section className="flex flex-col items-center justify-center py-20 home--supplies wrapper">
 				<h2 className="font-sans text-4xl font-semibold md:text-3xl">Exceptional Customer Service</h2>
 					<div className="grid grid-cols-2 gap-16 px-10 mt-12 md:grid-cols-1 md:px-0">
 						<div className="flex items-center">
@@ -152,10 +153,10 @@ const Home = () => {
 							</ScrollAnimation>
 						</div>
 					</div>
-			</div>
+			</section>
 
 			{/* 50/50 sustainbility */}
-			<div className="flex flex-col items-center justify-center py-20 home--supplies wrapper">
+			<section className="flex flex-col items-center justify-center py-20 home--supplies wrapper">
 				<h2 className="font-sans text-4xl font-semibold md:text-3xl">Sustainable Practices for a Better Future</h2>
 					<div className="grid grid-cols-2 gap-16 px-10 mt-12 md:grid-cols-1 md:px-0">
 						<div className="max-w-[95%] md:max-w-[100%] md:px-8 sm:!px-0 bg-light-blue flex items-center rounded-2xl">
@@ -174,17 +175,19 @@ const Home = () => {
 							</ScrollAnimation>
 						</div>
 					</div>
-			</div>
+			</section>
 
 			{/* ending */}
-			<div className="font-sans bg-center bg-cover wrapper home--hero-ending">
+			<summary className="font-sans bg-center bg-cover wrapper home--hero-ending">
 				<div className="pt-20 pb-28 px-28 md:px-0 md:py-8">
 					<h2 className="mb-16 text-5xl font-bold leading-snug text-white md:mb-8 md:text-4xl">Join the Dunder Mifflin Family</h2>
 					<p className="mb-4 text-2xl leading-normal text-white md:text-xl">We invite you to join the ever-growing family of businesses that trust Dunder Mifflin Paper Company for their paper needs. Whether you are a small local enterprise or a large corporation, we have the expertise, resources, and dedication to serve you with excellence.</p>
 					<p className="mb-4 text-2xl leading-normal text-white md:text-xl">Explore our website to discover our wide range of paper products, learn more about our sustainability initiatives, and get in touch with our friendly team. At Dunder Mifflin, we are here to make your paper purchasing experience efficient, reliable, and hassle-free.</p>
 					<p className="mb-4 text-2xl leading-normal text-white md:text-xl">Choose Dunder Mifflin Paper Company, and let us be your partner in success.</p>
 			</div>
-			</div>
+			</summary>
+
+			<Footer/>
 
 		</main>
 	)

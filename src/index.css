@@ -25,8 +25,23 @@ body {
 	font-family: 'helvetica';
 }
 
+.button--secondary {
+	background-color: #ABCBFF;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	border-radius: 2rem;
+	color: #003085;
+	font-family: 'helvetica';
+}
+
 .button--primary:hover {
 	background-color: #194175;
+}
+
+.button--secondary:hover {
+	background-color: #b8d0e5;
 }
 
 .home--hero {
