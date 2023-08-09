@@ -1,9 +1,21 @@
 import React from 'react'
+
 // Components
 import Navbar from './Navbar'
 // import Footer from './Footer'
 
+// Tools
+import Slider from "react-slick";
+
 const About = () => {
+
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      };
 
 	return (
 
@@ -11,7 +23,32 @@ const About = () => {
 
 		<Navbar/>
 
-            <header>The People Person's Paper People</header>
+            <header>
+                <h1 className="py-16 font-sans text-4xl font-semibold text-center">The People Person's Paper People</h1>
+            </header>
+
+            <div>
+             <Slider {...settings}>
+                <div>
+                    <h3>1</h3>
+                </div>
+                <div>
+                    <h3>2</h3>
+                </div>
+                <div>
+                    <h3>3</h3>
+                </div>
+                <div>
+                    <h3>4</h3>
+                </div>
+                <div>
+                    <h3>5</h3>
+                </div>
+                <div>
+                    <h3>6</h3>
+                </div>
+             </Slider>
+            </div>
 
 		</main>
 	)
