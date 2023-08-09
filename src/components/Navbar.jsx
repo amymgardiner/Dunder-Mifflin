@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link} from "react-router-dom";
 import { BiDownArrow } from "react-icons/bi";
 import Logo from '../assets/img/Dunder_Mifflin,_Inc.svg'
 
@@ -13,11 +14,15 @@ const Navbar = () => {
 	return (
 		<nav className="flex items-center gap-16 md:gap-2 main--navbar bg-navy-blue wrapper md:flex-col md:pb-4">
 			<div>
-				<img src={Logo} alt="Hammermill Copy Plus Copy Paper" className="w-36"></img>
+				<Link to="/">
+					<img src={Logo} alt="Hammermill Copy Plus Copy Paper" className="w-36"></img>
+				</Link>
 			</div>
 			<div className="flex gap-16 lg:gap-10 md:!gap-8 main--navbar-links">
 				<div>
-					<h2 className="font-serif text-2xl tracking-wider text-white uppercase md:text-xl hvr-grow">About</h2>
+					<Link to="/about">
+						<h2 className="font-serif text-2xl tracking-wider text-white uppercase md:text-xl hvr-grow">About</h2>
+					</Link>
 				</div>
 				<div>
 					<h2 className="font-serif text-2xl tracking-wider text-white uppercase md:text-xl hvr-grow">Our Team</h2>
