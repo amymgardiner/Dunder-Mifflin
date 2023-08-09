@@ -114,15 +114,20 @@ body {
 }
 
 .dropdown-content {
-	display: none;
 	position: absolute;
 	background-color: #f9f9f9;
-	width: 100%;
-	left: 0;
 	z-index: 1;
-	margin-top: 1.5rem;
+	margin-top: 1.8rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background: #194175;
+	color: white;
+	left: 0;
+	width: 100%;
 }
 
-.dropdown:hover .dropdown-content {
-	display: block;
+.dropdown-content--text {
+	justify-content: space-evenly;
 }
