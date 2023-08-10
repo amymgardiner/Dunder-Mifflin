@@ -248,3 +248,15 @@ body {
 		max-width: 16rem;
 	}
 }
+
+.about--hero-image {
+	background-image: url("./assets/img/hero-image.webp");
+	background-size: cover;
+  	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 50vh;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}

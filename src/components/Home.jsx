@@ -6,7 +6,7 @@ import Footer from './Footer';
 // Tools
 import ScrollAnimation from 'react-animate-on-scroll';
 
-// images and video
+// Images and Video
 import PrintingSVG from '../assets/img/undraw_photocopy_re_gln4.svg'
 import PresentationSVG from '../assets/img/undraw_progress_data_re_rv4p.svg'
 import DeliverySVG from '../assets/img/undraw_delivery_address_re_cjca.svg'
@@ -52,10 +52,10 @@ const Home = () => {
 				</div>
 				<ScrollAnimation animateIn="zoomIn" animateOnce={true}>
 					<div className="grid grid-cols-4 gap-16 mt-12 md:grid-cols-2 sm:!grid-cols-1">
-						<img src={Hammermill} alt="Hammermill Copy Plus Copy Paper" class="aspect-square max-h-96 rounded-2xl"></img>
-						<img src={Boise} alt="Boise Multi-Use Printer & Copier Paper" class="aspect-square max-h-96 rounded-2xl"></img>
-						<img src={HP} alt="HP Office20 Printer & Copier Paper" class="aspect-square max-h-96 rounded-2xl"></img>
-						<img src={PrinterWorks} alt="Printworks Multipurpose Paper" class="aspect-square max-h-96 rounded-2xl"></img>
+						<img src={Hammermill} alt="Hammermill Copy Plus Copy Paper" className="aspect-square max-h-96 rounded-2xl"></img>
+						<img src={Boise} alt="Boise Multi-Use Printer & Copier Paper" className="aspect-square max-h-96 rounded-2xl"></img>
+						<img src={HP} alt="HP Office20 Printer & Copier Paper" className="aspect-square max-h-96 rounded-2xl"></img>
+						<img src={PrinterWorks} alt="Printworks Multipurpose Paper" className="aspect-square max-h-96 rounded-2xl"></img>
 					</div>
 				</ScrollAnimation>
 			</section>

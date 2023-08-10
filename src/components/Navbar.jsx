@@ -25,7 +25,9 @@ const Navbar = () => {
 					</Link>
 				</div>
 				<div>
+					<Link to="/team">
 					<h2 className="font-serif text-2xl tracking-wider text-white uppercase md:text-xl hvr-grow">Our Team</h2>
+					</Link>
 				</div>
 				<div>
 					<h2 className="font-serif text-2xl tracking-wider text-white uppercase md:text-xl hvr-grow">Partnerships</h2>
