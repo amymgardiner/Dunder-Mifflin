@@ -162,6 +162,14 @@ body {
 	left: 5%;
 	z-index: 50;
 	color: #003085;
+
+	@media screen and (max-width: 56rem) {
+		left: -2%;
+	}
+
+	@media screen and (max-width: 40rem) {
+		left: 0;
+	}
 }
 
 .slick-prev:before {
@@ -173,6 +181,14 @@ body {
 	right: 5%;
 	z-index: 50;
 	color: #003085;
+
+	@media screen and (max-width: 56rem) {
+		right: 0;
+	}
+
+	@media screen and (max-width: 40rem) {
+		right: 2%;
+	}
 }
 
 .slick-next:before {
@@ -207,4 +223,28 @@ body {
 .slider--card img {
 	max-width: 50rem;
 	max-height: 25rem;
+
+	@media screen and (max-width: 56rem) {
+		max-width: 40rem;
+	}
+
+	@media screen and (max-width: 44rem) {
+		max-width: 35rem;
+	}
+
+	@media screen and (max-width: 39rem) {
+		max-width: 30rem;
+	}
+
+	@media screen and (max-width: 35rem) {
+		max-width: 25rem;
+	}
+
+	@media screen and (max-width: 30rem) {
+		max-width: 20rem;
+	}
+
+	@media screen and (max-width: 24rem) {
+		max-width: 16rem;
+	}
 }

@@ -48,7 +48,7 @@ const About = () => {
 
 		<Navbar/>
 
-			<header>
+			<header className="wrapper">
 				<h1 className="pt-20 pb-8 font-sans text-4xl font-semibold text-center">The People Person's Paper People</h1>
 			</header>
 
@@ -143,7 +143,7 @@ const About = () => {
 				</div>
 			</div>
 
-			<div className="px-8 py-16 bg-sky-blue about--staff-slider">
+			<div className="px-8 py-16 sm:px-2 bg-sky-blue about--staff-slider">
 				<div className="pt-1.5">
 				<Slider {...settings}>
 					<div className="slider--card">
