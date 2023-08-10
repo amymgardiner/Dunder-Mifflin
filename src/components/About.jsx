@@ -51,29 +51,33 @@ const About = () => {
 		<Navbar/>
 
 			<header>
-				<h1 className="py-16 font-sans text-4xl font-semibold text-center">The People Person's Paper People</h1>
+				<h1 className="pt-20 pb-8 font-sans text-4xl font-semibold text-center">The People Person's Paper People</h1>
 			</header>
 
-			<div className="pt-4 pb-20 about--staff-photos wrapper">
-				<div className="grid grid-cols-4 text-center">
+			<div className="pt-4 pb-32 about--staff-photos wrapper">
+				<div className="grid grid-cols-4 mb-8 text-center">
 					<div>
 						<img src={Michael} alt="Michael Scott" class=""></img>
 						<p>Michael Scott</p>
-					</div>
-					<div>
-						<img src={Dwight} alt="Dwight Schrute" class=""></img>
-						<p>Dwight Schrute</p>
-					</div>
-					<div>
-						<img src={Pam} alt="Pam Beesly Halpert" class=""></img>
-						<p>Pam Beesly Halpert</p>
+						<p>Regional Manager</p>
 					</div>
 					<div>
 						<img src={Jim} alt="Jim Halpert" class=""></img>
 						<p>Jim Halpert</p>
+						<p>Co-Regional Manager</p>
+					</div>
+					<div>
+						<img src={Dwight} alt="Dwight Schrute" class=""></img>
+						<p>Dwight Schrute</p>
+						<p>Assistant Regional Manager</p>
+					</div>
+					<div>
+						<img src={Pam} alt="Pam Beesly Halpert" class=""></img>
+						<p>Pam Beesly Halpert</p>
+						<p>Office Administrator</p>
 					</div>
 				</div>
-				<div className="grid grid-cols-4 text-center">
+				<div className="grid grid-cols-4 mb-8 text-center">
 					<div>
 						<img src={Andy} alt="Andy Bernard" class=""></img>
 						<p>Andy Bernard</p>
@@ -91,7 +95,7 @@ const About = () => {
 						<p>Ryan Howard</p>
 					</div>
 				</div>
-				<div className="grid grid-cols-4 text-center">
+				<div className="grid grid-cols-4 mb-8 text-center">
 					<div>
 						<img src={Phyllis} alt="Phyllis Vance" class=""></img>
 						<p>Phyllis Vance</p>
@@ -109,7 +113,7 @@ const About = () => {
 						<p>Creed Bratton</p>
 					</div>
 				</div>
-				<div className="grid grid-cols-4 text-center">
+				<div className="grid grid-cols-4 mb-8 text-center">
 					<div>
 						<img src={Angela} alt="Angela Martin" class=""></img>
 						<p>Angela Martin</p>
