@@ -38,33 +38,33 @@ const About = () => {
 				<h1 className="py-16 font-sans text-4xl font-semibold text-center">The People Person's Paper People</h1>
 			</header>
 
-			<div>
+			<div className="wrapper">
 			 <Slider {...settings}>
-			 	<div>
+			 	<div className="slider--card">
 				 	<img src={Pose} alt="Manager Michael Scott and staff" class=""></img>
 				</div>
-				<div>
+				<div className="slider--card">
 					<img src={Dinner} alt="Dunder Mifflin staff out to dinner" class=""></img>
 				</div>
-				<div>
+				<div className="slider--card">
 					<img src={TaiChi} alt="Dwight leading staff in tai chi" class=""></img>
 				</div>
-				<div>
+				<div className="slider--card">
 					<img src={HoldUp} alt="Staff playing Belles, Bourbon, and Bullets" class=""></img>
 				</div>
-				<div>
+				<div className="slider--card">
 					<img src={Nonsense} alt="6 days since the office's last nonse" class=""></img>
 				</div>
-				<div>
+				<div className="slider--card">
 					<img src={Halloween} alt="Staff at office Halloween party" class=""></img>
 				</div>
-				<div>
+				<div className="slider--card">
 					<img src={Yay} alt="Dunder Mifflin staff cheering at work" class=""></img>
 				</div>
-				<div>
+				<div className="slider--card">
 					<img src={Dundies} alt="Michael Scott presenting the Dunder Mifflin Dundie Awards" class=""></img>
 				</div>
-				<div>
+				<div className="slider--card">
 					<img src={JimPam} alt="Office romance" class=""></img>
 				</div>
 			 </Slider>

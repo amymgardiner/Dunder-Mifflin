@@ -158,6 +158,27 @@ body {
 }
 
 /* slider */
+.slick-arrow {
+}
+
+.slick-prev {
+	left: 0;
+	z-index: 50;
+}
+
+.slick-prev:before {
+	color: black;
+}
+
+.slick-next {
+	right: 0;
+	z-index: 50;
+}
+
+.slick-next:before {
+	color: black;
+}
+
 .slick-track {
 	display: flex !important;
 	justify-content: center !important;
@@ -167,4 +188,9 @@ body {
 .slick-slide {
 	display: flex !important;
 	justify-content: center !important;
+}
+
+.slider--card img {
+	max-width: 50rem;
+	max-height: 25rem;
 }
