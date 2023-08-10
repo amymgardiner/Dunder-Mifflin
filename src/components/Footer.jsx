@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { BsInstagram, BsTiktok, BsLinkedin, BsFacebook } from "react-icons/bs";
-import Logo from '../assets/img/Dunder_Mifflin,_Inc.svg'
+import Logo from '../assets/img/Dunder_Mifflin,_Inc.svg';
 
 const Navbar = () => {
 	return (

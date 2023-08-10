@@ -158,25 +158,39 @@ body {
 }
 
 /* slider */
-.slick-arrow {
-}
-
 .slick-prev {
-	left: 0;
+	left: 5%;
 	z-index: 50;
+	color: #003085;
 }
 
 .slick-prev:before {
-	color: black;
+	color: #003085;
+	font-size: 30px;
 }
 
 .slick-next {
-	right: 0;
+	right: 5%;
 	z-index: 50;
+	color: #003085;
 }
 
 .slick-next:before {
-	color: black;
+	color: #003085;
+	font-size: 30px;
+}
+
+.slick-dots li button:before {
+	color: #003085;
+	font-size: 10px;
+}
+
+.slick-dots li.slick-active button:before {
+	color: #003085;
+}
+
+.slick-dots:hover {
+	color: #003085;
 }
 
 .slick-track {

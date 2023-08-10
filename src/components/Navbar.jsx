@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link} from "react-router-dom";
 import { BiDownArrow } from "react-icons/bi";
-import Logo from '../assets/img/Dunder_Mifflin,_Inc.svg'
+import Logo from '../assets/img/Dunder_Mifflin,_Inc.svg';
 
 const Navbar = () => {
 

@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 // Components
-import Navbar from './Navbar'
-import Footer from './Footer'
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 // Tools
 import ScrollAnimation from 'react-animate-on-scroll';
