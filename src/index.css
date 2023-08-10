@@ -9,6 +9,8 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+
+/* utilities */
 .wrapper {
 	padding-left: 2rem;
 	padding-right: 2rem;
@@ -43,6 +45,9 @@ body {
 .button--secondary:hover {
 	background-color: #dae8ff
 }
+
+
+/* homepage */
 
 .home--hero {
 	background-image:
@@ -96,6 +101,9 @@ body {
 	url("./assets/img/richard-horvath-_nWaeTF6qo0-unsplash.jpg");
 }
 
+
+/* navbar */
+
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -147,4 +155,16 @@ body {
 	@media screen and (max-width: 24rem) {
 		flex-direction: column;
 	}
+}
+
+/* slider */
+.slick-track {
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+}
+
+.slick-slide {
+	display: flex !important;
+	justify-content: center !important;
 }
