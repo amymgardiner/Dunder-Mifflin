@@ -41,10 +41,10 @@ const Home = () => {
 			{/* hero */}
 			<header className="relative font-sans bg-center bg-cover home--hero wrapper">
 				<div className="pt-20 pb-28 px-28 md:py-16 md:px-0 home--hero-text">
-					<h1 className="text-5xl md:text-4xl font-bold max-w-[40%] leading-snug">At Dunder Mifflin Paper Company, we understand the importance of a well-stocked office.</h1>
+					<h1 className="text-5xl md:text-4xl font-bold max-w-[40%] leading-snug lg:max-w-[60%] sm:!max-w-[100%]">At Dunder Mifflin Paper Company, we understand the importance of a well-stocked office.</h1>
 					<p className="mt-16 text-2xl leading-normal text-white md:mb-8 md:mt-8 md:text-xl">We have everything you need to keep your workspace running smoothly.</p>
 				</div>
-				<div className="absolute bottom-[-1.5rem] left-1/2 home--hero-arrow"></div>
+				<div className="home--hero-arrow"></div>
 			</header>
 
 			{/* introduction */}

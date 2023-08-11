@@ -78,10 +78,21 @@ body {
 	content: url("./assets/img/down-arrow-download-svgrepo-com.svg");
 	height: 5rem;
 	width: 5rem;
+	position: absolute;
+	bottom: -1.5rem;
+	left: 49%;
 
 	@media screen and (max-width: 48rem) {
 		height: 4rem;
 		width: 4rem;
+	}
+
+	@media screen and (max-width: 37rem) {
+		left: 45%;
+	}
+
+	@media screen and (max-width: 20.5rem) {
+		left: 43%;
 	}
 }
 
@@ -270,4 +281,18 @@ body {
 
 .about--grid-card {
 	background-color:  rgba(218, 232, 255, 0.2);
+}
+
+/*
+.partnerships--grid-section {
+	background-image:
+		linear-gradient(to bottom, rgba(218, 232, 255, 0.4), rgba(171, 203, 255, 0.8)),
+		url("./assets/img/paul-pastourmatzis-mqO0Rf-PUMs-unsplash.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+ */
+ 
+.partnership--grid-card {
+	background-color:  rgba(239, 245, 255, 0.6);
 }
