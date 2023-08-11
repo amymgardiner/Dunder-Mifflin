@@ -49,10 +49,12 @@ const Team = () => {
 
 		<Navbar/>
 			
+			{/* header */}
 			<header className="wrapper">
 				<h1 className="pt-20 pb-8 font-sans text-4xl font-semibold text-center md:text-3xl">The People Person's Paper People</h1>
 			</header>
 
+			{/* employee grid */}
 			<section className="pt-4 pb-32 sm:pb-20 about--staff-photos wrapper">
 				<div className="grid grid-cols-4 gap-4 mb-8 text-center md:grid-cols-2 md:gap-y-8">
 					<div className="max-w-[18.75rem]">
@@ -144,6 +146,7 @@ const Team = () => {
 				</div>
 			</section>
 
+			{/* slider */}
 			<section className="px-8 py-16 sm:px-2 bg-sky-blue about--staff-slider">
 				<ScrollAnimation animateIn="bounce" animateOnce={true}>
 					<h2 className="mb-8 font-sans text-3xl font-semibold text-center md:text-2xl text-dark-blue">
