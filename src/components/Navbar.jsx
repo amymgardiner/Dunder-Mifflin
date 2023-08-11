@@ -30,7 +30,9 @@ const Navbar = () => {
 					</Link>
 				</div>
 				<div>
-					<h2 className="font-serif text-2xl tracking-wider text-white uppercase md:text-xl hvr-grow">Partnerships</h2>
+					<Link to="/partnerships">
+						<h2 className="font-serif text-2xl tracking-wider text-white uppercase md:text-xl hvr-grow">Partnerships</h2>
+					</Link>
 				</div>
 				<div className="dropdown" onClick={toggleDropdown}>
 					<div className="hvr-grow">

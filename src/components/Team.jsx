@@ -149,7 +149,7 @@ const Team = () => {
 			{/* slider */}
 			<section className="px-8 py-16 sm:px-2 bg-sky-blue about--staff-slider">
 				<ScrollAnimation animateIn="bounce" animateOnce={true}>
-					<h2 className="mb-8 font-sans text-3xl font-semibold text-center md:text-2xl text-dark-blue">
+					<h2 className="mb-8 font-sans text-4xl font-semibold text-center md:text-3xl text-dark-blue">
 						Joyful Moments at Dunder Mifflin
 					</h2>
 				</ScrollAnimation>

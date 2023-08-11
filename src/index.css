@@ -267,3 +267,7 @@ body {
 		url("./assets/img/alex-shutin-kKvQJ6rK6S4-unsplash.jpg");
 	background-size: cover;
 }
+
+.about--grid-card {
+	background-color:  rgba(218, 232, 255, 0.2);
+}
