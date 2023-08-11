@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 // Components
 import Navbar from './Navbar';
 import Footer from './Footer';
@@ -20,6 +20,17 @@ import VideoPoster from '../assets/img/brandi-redd-aJTiW00qqtI-unsplash.jpg'
 import LocalAd from '../assets/img/Local Ad  - The Office US - Trim.mp4'
 
 const Home = () => {
+
+	// Create a ref for the Footer component
+	const footerRef = useRef(null);
+
+	// Function to scroll to the footer
+	const scrollToFooter = () => {
+	  // Use the ref to get the DOM element of the Footer
+	  if (footerRef.current) {
+		footerRef.current.scrollIntoView({ behavior: 'smooth' });
+	  }
+	};
 
 	return (
 
@@ -148,7 +159,7 @@ const Home = () => {
 							<ScrollAnimation animateIn="fadeInRight" animateOnce={true}>
 								<div className="p-8 sm:p-6">
 									<p className="text-xl leading-loose md:text-lg font-default">At Dunder Mifflin, we take pride in our commitment to customer satisfaction. Our friendly and knowledgeable staff is always ready to assist you with any inquiries, help you find the right products, or provide guidance on optimizing your office supplies. We're here to ensure your experience with us is nothing short of exceptional.</p>
-									<button className="mt-10 text-lg button--primary">Contact Us</button>
+									<button onClick={scrollToFooter} className="mt-10 text-lg button--primary">Contact Us</button>
 								</div>
 							</ScrollAnimation>
 						</div>
@@ -187,7 +198,9 @@ const Home = () => {
 			</div>
 			</summary>
 
-			<Footer/>
+			<div ref={footerRef}>
+        		<Footer />
+      		</div>
 
 		</main>
 	)

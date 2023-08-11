@@ -82,22 +82,22 @@ const Team = () => {
 					<div className="max-w-[18.75rem]">
 						<img src={Jim} alt="Jim Halpert"></img>
 						<p className="font-sans text-xl font-semibold sm:text-base">Jim Halpert</p>
-						<p className="text-base font-default text-dark-blue sm:text-sm">Sales Department</p>
+						<p className="text-base font-default text-dark-blue sm:text-sm">Sales Representative</p>
 					</div>
 					<div className="max-w-[18.75rem]">
 						<img src={Andy} alt="Andy Bernard"></img>
 						<p className="font-sans text-xl font-semibold sm:text-base">Andy Bernard</p>
-						<p className="text-base font-default text-dark-blue sm:text-sm">Sales Department</p>
+						<p className="text-base font-default text-dark-blue sm:text-sm">Sales Representative</p>
 					</div>
 					<div className="max-w-[18.75rem]">
 						<img src={Phyllis} alt="Phyllis Vance"></img>
 						<p className="font-sans text-xl font-semibold sm:text-base">Phyllis Vance</p>
-						<p className="text-base font-default text-dark-blue sm:text-sm">Sales Department</p>
+						<p className="text-base font-default text-dark-blue sm:text-sm">Sales Representative</p>
 					</div>
 					<div className="max-w-[18.75rem]">
 						<img src={Stanley} alt="Stanley Hudson"></img>
 						<p className="font-sans text-xl font-semibold sm:text-base">Stanley Hudson</p>
-						<p className="text-base font-default text-dark-blue sm:text-sm">Sales Department</p>
+						<p className="text-base font-default text-dark-blue sm:text-sm">Sales Representative</p>
 					</div>
 				</div>
 				<div className="grid grid-cols-4 gap-4 mb-8 text-center md:grid-cols-2 md:gap-y-8">
