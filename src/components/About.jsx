@@ -21,7 +21,7 @@ const About = () => {
 			{/* header */}
 			<header className="wrapper">
 				<div className="px-20 py-20 text-center md:px-0">
-					<h1 className="font-sans text-4xl font-semibold md:text-3xl">Welcome to Dunder Mifflin Paper Co!</h1>
+					<h1 className="font-sans text-4xl font-semibold md:text-3xl text-dark-blue">Welcome to Dunder Mifflin Paper Co!</h1>
 					<p className="pt-8 text-2xl leading-loose font-default md:text-xl">At Dunder Mifflin, we believe in the power of paper to connect, create, and inspire. Since our founding, we've been dedicated to providing top-quality paper products to businesses of all sizes, from the bustling corporate office to the cozy home workspace. Our commitment to excellence and innovation has made us a trusted name in the paper industry.</p>
 				</div>
 			</header>
