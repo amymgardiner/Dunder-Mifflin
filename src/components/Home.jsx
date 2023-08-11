@@ -5,6 +5,7 @@ import Footer from './Footer';
 
 // Tools
 import ScrollAnimation from 'react-animate-on-scroll';
+import { Link} from "react-router-dom";
 
 // Images and Video
 import PrintingSVG from '../assets/img/undraw_photocopy_re_gln4.svg'
@@ -174,7 +175,9 @@ const Home = () => {
 							<ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
 								<div className="p-8 sm:p-6">
 									<p className="text-xl leading-loose md:text-lg font-default">As a responsible corporate citizen, Dunder Mifflin Paper Company understands the importance of sustainable practices in preserving our environment. We are committed to reducing our ecological footprint through responsible sourcing, recycling initiatives, and energy-efficient operations. By choosing Dunder Mifflin as your paper supplier, you can contribute to a greener future while enjoying the finest paper products available.</p>
-									<button className="mt-10 text-lg button--primary">Learn More</button>
+									<Link to="/partnerships">
+										<button className="mt-10 text-lg button--primary">Learn More</button>
+									</Link>
 								</div>
 							</ScrollAnimation>
 						</div>

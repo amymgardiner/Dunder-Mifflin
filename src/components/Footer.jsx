@@ -28,8 +28,8 @@ const Navbar = () => {
 				<div className="flex flex-col md:text-center">
 					<h2 className="mb-4 font-serif text-xl tracking-wider text-white uppercase">Careers</h2>
 					<div className="flex flex-col">
-						<p className="font-serif text-lg tracking-wider text-white">Open Positions</p>
-						<p className="font-serif text-lg tracking-wider text-white">Internships</p>
+						<p className="font-serif text-lg tracking-wider text-white hvr-grow">Open Positions</p>
+						<p className="font-serif text-lg tracking-wider text-white hvr-grow">Internships</p>
 					</div>
 				</div>
 				<div className="flex flex-col md:text-center">
