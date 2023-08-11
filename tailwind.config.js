@@ -10,7 +10,7 @@ module.exports = {
         'dark-blue': '#194175',
         'navy-blue': '#003085',
         'sky-blue': '#ABCBFF',
-        'light-blue': '#b8d0e5',
+        'light-blue': '#dae8ff',
       },
       screens: {
         'sm': {'max': '640px'},
